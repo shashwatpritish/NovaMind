@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMind - The must have for students</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="header">
+        <div class="logo">
+            <a href="index.html"><img src="only-logo.png" alt="" width="100"></a>
+        </div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="search"><i class="fa fa-search" style="color: white;"></i><input type="text" placeholder="Search">
+            </li>
+        </ul>
+    </nav>
+
+    <form class="order-form">
+        <h2>Order Form</h2>
+        <div class="item-selection">
+            <h3>Select Items:</h3>
+            <ul>
+                <li>
+                    <input type="checkbox" id="item1" name="items[]" value="item1">
+                    <label for="item1">Laptop - ₹5, 345</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="item2" name="items[]" value="item2">
+                    <label for="item2">Mouse - ₹100</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="item2" name="items[]" value="item2">
+                    <label for="item2">Keyboard - ₹200</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="item2" name="items[]" value="item2">
+                    <label for="item2">Headphone - ₹300</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="item2" name="items[]" value="item2">
+                    <label for="item2">Minipc - ₹3,400</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="item2" name="items[]" value="item2">
+                    <label for="item2">Webcam - ₹400</label>
+                </li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <h3>Contact Information:</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number (Optional):</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <button type="submit">Submit Order</button>
+    </form>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <div class="logo">
+                    <img src="logo.png" alt="Novamind Logo">
+                </div>
+                <p>Copyright &copy; 2024 Novamind. All rights reserved.</p>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="icons.js"></script>
+
+</html>
