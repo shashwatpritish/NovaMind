@@ -183,6 +183,15 @@
     color: #009246;
 }
 
+#new{
+    margin: 0 5px;
+    color: white;
+    background: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 5px
+}
+
 .footer {
     background-color: #000000;
     color: #fff;
